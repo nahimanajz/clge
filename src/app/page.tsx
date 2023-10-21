@@ -1,15 +1,17 @@
 "use client";
 
+import Loader from "@/components/Loader";
+import NavBar from "@/components/Navbar";
+import NavigationTab from "@/components/NavigationTab";
 import RoomCard from "@/components/RoomCard";
 import { fetchRooms } from "@/services/rooms";
-import { HTTP_URL } from "@/shared";
-import { ICard } from "@/shared/types";
+import { IRoom } from "@/shared/types";
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [cards, setCards] = useState<ICard[]>([]);
+  const [cards, setCards] = useState<IRoom[]>([]);
   const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
 
   const { isLoading, data } = useQuery({
@@ -27,33 +29,59 @@ export default function Home() {
     setCurrentPage(currentPage + 1);
   };
 
+  const onFilter = (filterQuery: string) => {
+    setIsLoadingMore(true);
+    const query = filterQuery.toLowerCase();
+
+    const searched: IRoom[] =
+      data?.filter((room: IRoom) => {
+        const roomByDaytime = room.daytime.toLowerCase().includes(query);
+        return roomByDaytime
+          ? roomByDaytime
+          : room.country.toLowerCase().includes(query);
+      }) || [];
+
+    setCards(searched);
+  };
+
+  const firstTen = data?.slice(0, 10);
+
   return (
-    <div className="min-h-screen bg-white">
+    <div>
+      <NavBar onFilter={onFilter}>
+        <NavigationTab onFilter={onFilter} />
+      </NavBar>
+
       {isLoading ? (
-        <div>Please wait ...</div>
+        <Loader />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 z-0 absolute w-full mt-40">
           {!isLoadingMore ? (
             <>
-              {data?.slice(0, 11).map((room, index) => (
-                <RoomCard key={index} room={room} />
+              {firstTen?.map((room) => (
+                <RoomCard key={room.id} room={room} />
               ))}
             </>
           ) : (
             <>
-              {cards?.map((room, index) => (
-                <RoomCard key={index} room={room} />
+              {cards?.map((room) => (
+                <RoomCard key={room.id} room={room} />
               ))}
             </>
           )}
+          <div className="flex flex-row justify-start align-start gap-x-4 ml-12">
+            <div className="font-bold text-dark text-xl">
+              Continue exploring
+            </div>
+            <button
+              onClick={loadMore}
+              className="w-58 p-4 bg-dark text-white rounded-md font-semibold hover:bg-primary h-[60px] "
+            >
+              Load More
+            </button>
+          </div>
         </div>
       )}
-      <button
-        onClick={loadMore}
-        className="w-full p-4 bg-blue-500 text-white rounded-md font-semibold hover:bg-blue-600 mt-20"
-      >
-        Load More
-      </button>
     </div>
   );
 }
