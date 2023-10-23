@@ -19,6 +19,7 @@ const RoomDetails = () => {
   if (isLoading) return <Loader />;
   const convertDate = new Date(data?.createdAt as string);
    const date = convertDate.toLocaleDateString()
+   
 
   return (
     <div className="bg-white flex justify-center align-center flex-col px-10 py-2">
@@ -48,5 +49,4 @@ const RoomDetails = () => {
     </div>
   );
 };
-
 export default RoomDetails;

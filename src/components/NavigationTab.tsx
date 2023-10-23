@@ -31,8 +31,9 @@ const NavigationTab:FC<INavbarProps> = ({onFilter}) => {
     },
     {
       day: "Sunday",
-      isActive: true,
+      isActive: false,
     },
+   
   ]);
   const handleDayClick = (clickedDay: string) => {
     const updatedDays = days.map((day) => ({
