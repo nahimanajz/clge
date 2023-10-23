@@ -4,13 +4,12 @@ import { IRoom } from "@/shared/types";
 
 import { useRouter } from "next/navigation";
 import ImageSlider from "./ImageSlider";
+import { FC } from "react";
 
 interface IRoomProps {
-  key: string;
   room: IRoom;
 }
-const RoomCard = ({
-  key,
+const RoomCard:FC<IRoomProps> = ({
   room: {
     id,
     title,
@@ -20,10 +19,10 @@ const RoomCard = ({
     country,
     city, daytime
   },
-}: IRoomProps) => {
+}) => {
   const router = useRouter();
   return (
-    <div className="max-w-xs mx-auto p-4 cursor-pointer" key={key}>
+    <div className="max-w-xs mx-auto p-4 cursor-pointer">
       <ImageSlider images={images[0]} />
       <div onClick={() => router.push(`/room/${id}/details`)}>
         <div className="flex justify-between">

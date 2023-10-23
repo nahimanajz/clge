@@ -1,5 +1,4 @@
 "use client";
-
 import Loader from "@/components/Loader";
 import NavBar from "@/components/Navbar";
 import NavigationTab from "@/components/NavigationTab";
@@ -55,11 +54,11 @@ export default function Home() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 z-0 absolute w-full mt-40">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 z-0 absolute w-full my-40">
           {!isLoadingMore ? (
             <>
               {firstTen?.map((room) => (
-                <RoomCard key={room.id} room={room} />
+                <RoomCard room={room} key={room.id} />
               ))}
             </>
           ) : (
@@ -69,15 +68,20 @@ export default function Home() {
               ))}
             </>
           )}
+
           <div className="flex flex-row justify-start align-start gap-x-4 ml-12">
-            <div className="font-bold text-dark text-xl">
+            <div
+              className="font-bold text-dark text-xl"
+              onMouseEnter={loadMore}
+            >
               Continue exploring
             </div>
-            <button
-              onClick={loadMore}
-              className="w-58 p-4 bg-dark text-white rounded-md font-semibold hover:bg-primary h-[60px] "
-            >
-              Load More
+            <button type="button" className="bg-primary p-8" disabled>
+              <svg
+                className="animate-spin h-5 w-5 mr-3 ..."
+                viewBox="0 0 24 24"
+              ></svg>
+              Loading...
             </button>
           </div>
         </div>
