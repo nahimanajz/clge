@@ -4,7 +4,7 @@ const nextConfig = {
     forceSwcTransforms: false,
   },
   images: {
-    domains: ["tailwindui.com"],
+    domains: ["loremflickr.com"],
   },
 };
 

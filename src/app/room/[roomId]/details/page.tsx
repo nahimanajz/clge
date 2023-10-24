@@ -1,11 +1,14 @@
 "use client";
-import ImageGrid from "@/components/ImageGrid";
-import Loader from "@/components/Loader";
+
 import { fetchDetail } from "@/services/rooms";
 import { useQuery } from "@tanstack/react-query";
+import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { FiArrowLeft } from "react-icons/fi";
+
+const  ImageGrid = dynamic(()=>import("@/components/ImageGrid"));
+const  Loader = dynamic(()=> import("@/components/Loader")) 
 
 const RoomDetails = () => {
   const { roomId } = useParams();

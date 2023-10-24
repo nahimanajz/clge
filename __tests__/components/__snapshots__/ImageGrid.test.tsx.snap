@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`room card test   should match slider snapshot 1`] = `
+<div>
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 px-40"
+  >
+    <img
+      alt="back"
+      class="h-full object-container"
+      data-nimg="1"
+      decoding="async"
+      height="300"
+      loading="lazy"
+      src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=1920&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=750&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=1920&q=75 2x"
+      style="color: transparent;"
+      width="700"
+    />
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-4"
+    >
+      <img
+        alt="front"
+        class="transition delay-150 duration-300 ease-in-out hover:transform hover:scale-105"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75 2x"
+        style="color: transparent;"
+        width="400"
+      />
+      <img
+        alt="left"
+        class="transition delay-150 duration-300 ease-in-out hover:transform hover:scale-105"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75 2x"
+        style="color: transparent;"
+        width="400"
+      />
+      <img
+        alt="right"
+        class="transition delay-150 duration-300 ease-in-out hover:transform hover:scale-105"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75 2x"
+        style="color: transparent;"
+        width="400"
+      />
+      <img
+        alt="back"
+        class="transition delay-150 duration-300 ease-in-out hover:transform hover:scale-105"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=828&q=75 2x"
+        style="color: transparent;"
+        width="400"
+      />
+    </div>
+  </div>
+</div>
+`;

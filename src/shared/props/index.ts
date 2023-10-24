@@ -1,13 +1,11 @@
 import { IRoomDetail } from "../types";
 
 export interface IImageSliderProps {
-    images?: IRoomDetail;
-  }
-  
-export interface INavbarProps {
-  onFilter(value:string): VoidFunction;
-  children: any
+  images?: IRoomDetail;
 }
-export interface INavigationTabProps {
-  onFilterByDay(value:string):VoidFunction
+
+export interface INavbarProps {
+  onFilter: (value: string, isTyping:boolean) => void;
+  children?: React.ReactNode;
+  isTyping?:boolean
 }

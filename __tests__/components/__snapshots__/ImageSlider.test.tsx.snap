@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`room card test   should match slider snapshot 1`] = `
+<div>
+  <div
+    class="carousel-root"
+  >
+    <div
+      class="carousel carousel-slider"
+      style="width: 100%;"
+    >
+      <ul
+        class="control-dots"
+      >
+        <li
+          aria-label="slide item 1"
+          class="dot selected"
+          role="button"
+          tabindex="0"
+          value="0"
+        />
+        <li
+          aria-label="slide item 2"
+          class="dot"
+          role="button"
+          tabindex="0"
+          value="1"
+        />
+        <li
+          aria-label="slide item 3"
+          class="dot"
+          role="button"
+          tabindex="0"
+          value="2"
+        />
+        <li
+          aria-label="slide item 4"
+          class="dot"
+          role="button"
+          tabindex="0"
+          value="3"
+        />
+      </ul>
+      <button
+        aria-label="previous slide / item"
+        class="control-arrow control-prev control-disabled"
+        type="button"
+      />
+      <div
+        class="slider-wrapper axis-horizontal"
+      >
+        <ul
+          class="slider animated"
+          style="transform: translate3d(0,0,0); transition-duration: 350ms;"
+        >
+          <li
+            class="slide selected previous"
+          >
+            <img
+              alt="back"
+              class="rounded-[8px]"
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="300"
+            />
+          </li>
+          <li
+            class="slide"
+          >
+            <img
+              alt="front"
+              class="rounded-[8px]"
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="300"
+            />
+          </li>
+          <li
+            class="slide"
+          >
+            <img
+              alt="left"
+              class="rounded-[8px]"
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="300"
+            />
+          </li>
+          <li
+            class="slide"
+          >
+            <img
+              alt="right"
+              class="rounded-[8px]"
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.thespruce.com%2Fthmb%2FiMt63n8NGCojUETr6-T8oj-5-ns%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPAinteriors-7-cafe9c2bd6be4823b9345e591e4f367f.jpg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="300"
+            />
+          </li>
+        </ul>
+      </div>
+      <button
+        aria-label="next slide / item"
+        class="control-arrow control-next"
+        type="button"
+      />
+      <p
+        class="carousel-status"
+      >
+        1 of 4
+      </p>
+    </div>
+  </div>
+</div>
+`;
